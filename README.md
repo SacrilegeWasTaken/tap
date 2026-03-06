@@ -16,10 +16,14 @@ brew tap sacrilegewastaken/tap
 
 - **`olovebar`** – macos customizable menu bar. aerospace required.
 
+### Formula
+- **`libcsp`** - tiny Clang/GCC smart pointer library for C11/C23.
+
 Install:
 
 ```bash
 brew install --cask olovebar
+brew install libcsp
 ```
 
 ### Update
@@ -27,5 +31,6 @@ brew install --cask olovebar
 ```bash
 brew update
 brew upgrade --cask olovebar
+brew upgrade libcsp
 ```
 
