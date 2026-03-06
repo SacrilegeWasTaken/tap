@@ -1,6 +1,6 @@
 cask "olovebar" do
     version :latest
-    sha256 "92328ddb7fdd0506e51151a8fb24b0c7e5949aa7ad19c54347ceede3c5a6a3a7"
+    sha256 :no_check
 
     url "https://codeberg.org/sacrilegewastaken/olovebar/releases/download/latest/OLoveBar.dmg"
     name "OLoveBar"
