@@ -1,6 +1,6 @@
 cask "olovebar@0.3.6" do
   version "0.3.6"
-  sha256 "60e3ec80ad0d3bb60eb8644d6f6e103964daf91657b36ad5c35bdaab96af3bab"
+  sha256 "3539ce05c448943156323e71591ba867aa28fb1cad92353a17bb2f5f913f464a"
 
   url "https://codeberg.org/sacrilegewastaken/olovebar/releases/download/0.3.6/OLoveBar.dmg"
   name "OLoveBar"
