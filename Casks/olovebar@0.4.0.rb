@@ -1,8 +1,8 @@
-cask "olovebar" do
-  version :latest
+cask "olovebar@0.4.0" do
+  version "0.4.0"
   sha256 "86b1f3c7f6592a4bbb58d20116309ce281fc1dca6340108f6faa77795052f5f5"
 
-  url "https://codeberg.org/sacrilegewastaken/olovebar/releases/download/latest/OLoveBar.dmg"
+  url "https://codeberg.org/sacrilegewastaken/olovebar/releases/download/0.4.0/OLoveBar.dmg"
   name "OLoveBar"
   desc "Menu bar utility"
   homepage "https://codeberg.org/sacrilegewastaken/olovebar"
