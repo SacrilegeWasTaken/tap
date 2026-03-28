@@ -28,8 +28,8 @@ class Ctf < Formula
     system "zig", "build", "-Doptimize=ReleaseSafe",
            "--global-cache-dir", "#{buildpath}/.zig-cache",
            "--prefix", prefix
-    # Remove Gatekeeper quarantine from the unsigned binary
-    system "xattr", "-d", "com.apple.quarantine", bin/"ctf"
+    # Remove Gatekeeper quarantine from the unsigned binary (no-op if absent)
+    quiet_system "xattr", "-d", "com.apple.quarantine", bin/"ctf"
   end
 
   test do
