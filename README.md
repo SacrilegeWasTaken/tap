@@ -18,12 +18,14 @@ brew tap sacrilegewastaken/tap
 
 ### Formula
 - **`libcsp`** - tiny Clang/GCC smart pointer library for C11/C23.
+- **`ctf`** - clang-tidy framework. call `ct` for declared config. 
 
 Install:
 
 ```bash
 brew install --cask olovebar
 brew install libcsp
+brew install ctf
 ```
 
 ### Update
@@ -32,5 +34,6 @@ brew install libcsp
 brew update
 brew upgrade --cask olovebar
 brew upgrade libcsp
+brew upgrade ctf
 ```
 
